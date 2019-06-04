@@ -1,0 +1,91 @@
+/* style.css for final.html */
+body {font-family: Arial;
+	margin:20px;
+}
+
+nav {font-size:1.5em;
+	background: #6bc399;
+	/* background: #ea0628; */
+	color:#fff;
+	padding:15px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+
+nav a:visited {
+	color:black;
+}
+nav a:hover {
+	color:black;
+}
+nav a:active {
+	color:black;
+}
+
+
+.reglabel {display:inline-block;
+	width:150px;
+	margin-bottom:10px;
+	font-size:1.5em;
+}
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
+
+
+.button1 {background-color: #4CAF50;
+	font-size:1.5em;
+	border:none;
+	color:#ffffff;
+	padding:15px;
+	opacity: .9;
+}
+
+.button1:hover {opacity: 1; }
+
+select {font-size: 1.5em;}
+
+footer {margin-top:20px;
+	background-color: #dadada;
+	padding:10px;
+}
+
+.success {background-color: #4CAF50;
+	padding:20px;
+	margin-top:20px;
+	color:#fff;
+	font-size:1.5em;
+}
+
+.content {background-color: #dadada;
+	padding:10px;
+	margin:15px 0 0 0;
+	font-style: italic;
+	border-top:3px solid #666666;
+}
+
+.logo {float:left;
+		height: 4%; 
+		width: 4%;
+}
+
+.icon {color:#2A799B;}
+
+.rottenpotatoe {color:#2A799B; margin-right:30px;
+	font-size:1.5em;
+	font-weight: bold;
+}
+
+.bar {
+	padding:10px;
+}
+
+.surveylabel {display:inline-block;
+	width:150px;
+	margin-bottom:10px;
+	font-size:1.5em;
+}
+
