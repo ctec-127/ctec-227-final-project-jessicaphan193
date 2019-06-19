@@ -3,7 +3,7 @@
 
 <p>
 <?php
-if (isset($_SESSION['type']) && $_SESSION['type'] == "no") {
+if (isset($_SESSION['role']) && $_SESSION['role'] == "no"){
     $isAdmin = "(Admin)";
     $user_type = '|&nbsp;&nbsp;<a href="admin.php" title="Administrator">Admin</a>';
 } else {
@@ -12,7 +12,10 @@ if (isset($_SESSION['type']) && $_SESSION['type'] == "no") {
 }
 
 if (isset($_SESSION['username'])) {
-    echo '<div class="userheader"><i class="fa fa-user-circle-o fa-5 icon"></i>&nbsp;<a href="profile.php?id=' . $_SESSION['id'] . '" class="profilelink" title="Profile">' . $_SESSION['username'] . "</a> $isAdmin</div>";
+    echo "<strong>";
+    echo '<div class="userheader"><i class="fa fa-user-circle-o fa-5 icon"></i>&nbsp;' . $_SESSION['username'] . " $isAdmin</div>";
+    // echo '<div class="userheader"><i class="fa fa-user-circle-o fa-5 icon"></i>&nbsp;<a href="profile.php?id=' . $_SESSION['id'] . '" class="profilelink" title="Profile">' . $_SESSION['username'] . "</a> $isAdmin</div>";
+    echo "</strong>";
 }
 ?>
 </p>

@@ -1,17 +1,17 @@
 /* style.css for final.html */
 body {font-family: Arial;
 	margin:20px;
+	background: E6E8FA;
 }
 
 nav {font-size:1.5em;
-	background: #6bc399;
+	background: #ea0628;
 	/* background: #ea0628; */
 	color:#fff;
 	padding:15px;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
 }
-
 
 nav a:visited {
 	color:black;
@@ -37,6 +37,7 @@ input[type=radio] {
 
 
 .button1 {background-color: #4CAF50;
+	border-radius: 8px;
 	font-size:1.5em;
 	border:none;
 	color:#ffffff;
@@ -49,7 +50,7 @@ input[type=radio] {
 select {font-size: 1.5em;}
 
 footer {margin-top:20px;
-	background-color: #dadada;
+	background-color: #f2e7a6;
 	padding:10px;
 }
 
@@ -89,3 +90,30 @@ footer {margin-top:20px;
 	font-size:1.5em;
 }
 
+.form-error {
+	border: 2px solid red;
+}
+
+.radio-error{
+	color: red;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.post{
+    border: 5px solid #fed801;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 7px 10px #b7041f;
+}  
+
+.addlabel {display:inline-block;
+	width:150px;
+	margin-bottom:10px;
+	font-size:1.5em;
+}
+
+.holder{
+    border: 2px solid black;
+    background-color: #f99991;
+}  

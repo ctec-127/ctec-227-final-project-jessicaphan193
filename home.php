@@ -3,41 +3,12 @@
 <?php 
 $pageTitle = "Rotten Potatoe: Home";
 require_once("includes/header.php");
-require_once("includes/nav.php");
 ?>
 
-<!DOCTYPE html>
-<html>
-<head></head>
-<body>
-
-
-
-
 <div class="container">
-
-
-
-
-
-
-
-
-
-<!-- 
-
-  <div class="justify-content-md-center">
-  <p> Editor's Choice</p>
-
-</div> -->
-
-
-
 <div class="jumbotron">
-  <h1 class="display-5">Editor's Choice</h1>
- 
+  <h1 class="display-5 text-center">Editor's Choice:</h1>
 </div>
-
 
 <div class="row justify-content-md-center carousel-holder">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -48,13 +19,13 @@ require_once("includes/nav.php");
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/pikachu.jpg" class="d-block" alt="pikachu">
+      <a href='review.php?id=3'><img src="img/pikachu.jpg" class="d-block" alt="pikachu"></a>
     </div>
     <div class="carousel-item">
-      <img src="img/endgame.jpg" class="d-block" alt="endgame">
+      <a href='review.php?id='><img src="img/endgame.jpg" class="d-block" alt="endgame"></a>
     </div>
     <div class="carousel-item">
-      <img src="img/ts4.jpg" class="d-block" alt="toystory4">
+      <a href='review.php?id='><img src="img/ts4.jpg" class="d-block" alt="toystory4"></a>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -68,27 +39,14 @@ require_once("includes/nav.php");
 </div>
 
 
+<p><b>Maecenas hendrerit feugiat nulla eget rutrum. Mauris ac ex eget mi fringilla volutpat. Suspendisse hendrerit malesuada eros, eget scelerisque nulla vehicula eget. Nam condimentum orci sit amet tempus iaculis. Aenean nec fermentum justo, quis consectetur tortor. Integer fringilla, purus at blandit accumsan, purus felis tempor nibh, nec mollis leo turpis et ex. Maecenas vel accumsan tortor. Curabitur elementum aliquam nunc aliquet fermentum.</b></p>
 <br><br>
-<p>Maecenas hendrerit feugiat nulla eget rutrum. Mauris ac ex eget mi fringilla volutpat. Suspendisse hendrerit malesuada eros, eget scelerisque nulla vehicula eget. Nam condimentum orci sit amet tempus iaculis. Aenean nec fermentum justo, quis consectetur tortor. Integer fringilla, purus at blandit accumsan, purus felis tempor nibh, nec mollis leo turpis et ex. Maecenas vel accumsan tortor. Curabitur elementum aliquam nunc aliquet fermentum.</p>
+<p><b>Maecenas hendrerit feugiat nulla eget rutrum. Mauris ac ex eget mi fringilla volutpat. Suspendisse hendrerit malesuada eros, eget scelerisque nulla vehicula eget. Nam condimentum orci sit amet tempus iaculis. Aenean nec fermentum justo, quis consectetur tortor. Integer fringilla, purus at blandit accumsan, purus felis tempor nibh, nec mollis leo turpis et ex. Maecenas vel accumsan tortor. Curabitur elementum aliquam nunc aliquet fermentum.</b></p>
 <br><br>
-<p>Maecenas hendrerit feugiat nulla eget rutrum. Mauris ac ex eget mi fringilla volutpat. Suspendisse hendrerit malesuada eros, eget scelerisque nulla vehicula eget. Nam condimentum orci sit amet tempus iaculis. Aenean nec fermentum justo, quis consectetur tortor. Integer fringilla, purus at blandit accumsan, purus felis tempor nibh, nec mollis leo turpis et ex. Maecenas vel accumsan tortor. Curabitur elementum aliquam nunc aliquet fermentum.</p>
-<br><br>
-<p>Maecenas hendrerit feugiat nulla eget rutrum. Mauris ac ex eget mi fringilla volutpat. Suspendisse hendrerit malesuada eros, eget scelerisque nulla vehicula eget. Nam condimentum orci sit amet tempus iaculis. Aenean nec fermentum justo, quis consectetur tortor. Integer fringilla, purus at blandit accumsan, purus felis tempor nibh, nec mollis leo turpis et ex. Maecenas vel accumsan tortor. Curabitur elementum aliquam nunc aliquet fermentum.</p>
-
-
+<p><b>Maecenas hendrerit feugiat nulla eget rutrum. Mauris ac ex eget mi fringilla volutpat. Suspendisse hendrerit malesuada eros, eget scelerisque nulla vehicula eget. Nam condimentum orci sit amet tempus iaculis. Aenean nec fermentum justo, quis consectetur tortor. Integer fringilla, purus at blandit accumsan, purus felis tempor nibh, nec mollis leo turpis et ex. Maecenas vel accumsan tortor. Curabitur elementum aliquam nunc aliquet fermentum.</b></p>
 </div>
 </div>
-
 </div>
-<!-- 
-
-<br><br>
-<p>Maecenas hendrerit feugiat nulla eget rutrum. Mauris ac ex eget mi fringilla volutpat. Suspendisse hendrerit malesuada eros, eget scelerisque nulla vehicula eget. Nam condimentum orci sit amet tempus iaculis. Aenean nec fermentum justo, quis consectetur tortor. Integer fringilla, purus at blandit accumsan, purus felis tempor nibh, nec mollis leo turpis et ex. Maecenas vel accumsan tortor. Curabitur elementum aliquam nunc aliquet fermentum.</p>
-<br><br>
-<p>Maecenas hendrerit feugiat nulla eget rutrum. Mauris ac ex eget mi fringilla volutpat. Suspendisse hendrerit malesuada eros, eget scelerisque nulla vehicula eget. Nam condimentum orci sit amet tempus iaculis. Aenean nec fermentum justo, quis consectetur tortor. Integer fringilla, purus at blandit accumsan, purus felis tempor nibh, nec mollis leo turpis et ex. Maecenas vel accumsan tortor. Curabitur elementum aliquam nunc aliquet fermentum.</p>
-<br><br>
-<p>Maecenas hendrerit feugiat nulla eget rutrum. Mauris ac ex eget mi fringilla volutpat. Suspendisse hendrerit malesuada eros, eget scelerisque nulla vehicula eget. Nam condimentum orci sit amet tempus iaculis. Aenean nec fermentum justo, quis consectetur tortor. Integer fringilla, purus at blandit accumsan, purus felis tempor nibh, nec mollis leo turpis et ex. Maecenas vel accumsan tortor. Curabitur elementum aliquam nunc aliquet fermentum.</p>
- -->
 
 
 <!-- jQuery -->
